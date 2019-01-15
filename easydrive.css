@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+body{
+	font-family: Arial, Open-Sans;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden; 
+	height: 0;
+	
+}
+
+li{
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: Arial, Open-Sans;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+#navNaam{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top: 30px;
+	right: 80px;
+	bottom: 20px;
+
+}
+
+#logo{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	bottom: 40px;
+	left: 100px;
+
+}
+
+#tekstHome{
+	position: relative;
+	bottom: 350px;
+	left: 410px;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+#tekstHome2{
+	position: relative;
+	bottom: 340px;
+	left: 410px;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#tekstHome3{
+	position: relative;
+	bottom: 330px;
+	left: 330px;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+
+
+}
+
+#afbeeldingKnop{
+	position: relative;
+	background-color: lightblue;
+	color: white;
+	font-weight: bold;
+	width: 30%;
+	height: 40px;
+	border: 8px lightblue;
+	bottom: 330px;
+	left: 400px;
+}
+
+#homeAfbeelding{
+	max-width: 100%;
+	height: 400px;
+	
+}
+
+#rijschoolTekst{
+	text-align: center;
+}
+
+#titelReden{
+	display: flex;
+	justify-content: space-between;
+	position:relative;
+}
+
+#tekstReden{
+	display: flex;
+	justify-content: space-between;
+}
+
+#r1{
+	left: 110px;
+	position: relative;
+	color: gold;
+}
+
+#r2{
+	right: 105px;
+	position: relative;
+	color: gold;
+}
+
+#a1{
+	max-width: 500px;
+	position: relative;
+	left: 30px;
+}
+
+#a2{ 
+	max-width: 500px;
+	position: relative;
+	right: 30px;
+ }
+
+
+ #titelReden2{
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+#tekstReden2{
+	display: flex;
+	justify-content: space-between;
+}
+ #r3{
+ 	left: 70px;
+	position: relative;
+	color: gold;
+ }
+
+ #r4{
+ 	right: 190px;
+	position: relative;
+	color: gold;
+ }
+
+ #a3{
+ 	max-width: 500px;
+ 	position: relative;
+	left: 30px;
+ }
+
+ #a4{
+ 	max-width: 500px;
+ 	position: relative;
+	right: 30px;
+ }
+
+
+ #containerHome{
+ 	bottom: 240px;
+ 	position: relative;
+ }
+
+/*
+#vaardigheden{
+	width: 100%;
+	height: 200px;
+	bottom: 160px;
+	position: relative;
+}
+
+#autologo{
+	position: relative;
+	width: 5%;
+	bottom: 350px;
+	left: 30px;
+}
+
+#z1{
+	position: relative;
+	font-family: cursive;
+	bottom: 440px;
+	left: 100px;
+	color: white;
+	font-size: 20px;
+
+}
+
+#laagtarief{
+	position: relative;
+	width: 5%;
+	bottom: 400px;
+	left: 60px;
+
+}
+*/
+
+#autologo{
+	width: 10%;
+	bottom: 200px;
+	position: relative;
+}
+
+#v1{
+	bottom: 300px;
+	left: 120px;
+	position: relative;
+}
+
+#geldicon{
+	width: 10%;
+	bottom: 410px;
+	position: relative;
+	left: 400px;
+}
+
+#v2{
+	bottom: 485px;
+	left: 520px;
+	position: relative;
+}
+
+#lesicon{
+	width: 6%;
+	bottom: 580px;
+	position: relative;
+	left: 800px;
+}
+
+#v3{
+	bottom: 630px;
+	left: 900px;
+	position: relative;
+}
+
+#containerMarketing{
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	bottom: 620px;
+}
+
+#v4{
+	max-width: 300px;
+	position: relative;
+	left: 30px;
+}
+
+#v5{
+	max-width: 300px;
+	position: relative;
+	right: 50px;
+}
+
+#v6{
+	max-width: 300px;
+	position: relative;
+	right: 140px;
+}
+
+#footerHome{
+	width: 100%;
+	height: 502px;
+	background-color: black;
+}
+
+#socialmediatitel{
+	color: white;
+}
+
+#drielogos{
+	position: relative;
+	left: 42px;
+}
+
+footer{
+	bottom: 600px;
+	position: relative;
+	color: white;
+}
+
+#telefoon_icon{
+	width: 3%;
+	left: 10px;
+	top: 20px;
+	position: relative;
+}
+
+#telefoonnummer{
+	left: 60px;
+	bottom: 25px;
+	position: relative;
+}
+
+#email_icon{
+	width: 4%;
+	left: 300px;
+	bottom: 80px;
+	position: relative;
+}
+
+#emailadress{
+	left: 360px;
+	bottom: 130px;
+	position: relative;
+}
+
+#telefoondiv{
+	left: 80px;
+	position: relative;
+}
+
+#emaildiv{
+	left: 160px;
+	position: relative;
+}
