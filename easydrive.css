@@ -9,9 +9,7 @@ body{
 	padding: 0;
 	overflow-x: hidden; 
 	height: 0;
-	margin-bottom: 0;
 
-	
 }
 
 li{
@@ -78,14 +76,14 @@ a {
 
 #afbeeldingKnop{
 	position: relative;
-	background-color: lightblue;
-	color: white;
+	background-color: turquoise;
 	font-weight: bold;
 	width: 30%;
 	height: 40px;
-	border: 8px lightblue;
+	border: 8px turquoise;
 	bottom: 330px;
-	left: 400px;
+	left: 420px;
+	border-radius: 12px;
 }
 
 #homeAfbeelding{
@@ -274,6 +272,7 @@ a {
 	width: 100%;
 	height: 300px;
 	background-color: black;
+	color: white;
 }
 
 #socialmediatitel{
@@ -289,6 +288,8 @@ footer{
 	bottom: 600px;
 	position: relative;
 	color: white;
+	background-color: black;
+
 }
 
 #telefoon_icon{
@@ -333,12 +334,14 @@ footer{
 	position: relative;
 	bottom: 282px;
 	left: 870px;
+	color: white;
 }
 
 #socialmedia{
 	position: relative;
 	bottom: 350px;
 	left: 970px;
+	color: white;
 }
 
 #s1 li{
@@ -392,27 +395,96 @@ footer{
 	bottom: 400px;
 	position: relative;
 	left: 100px;
+	color: white;
 }
 
 #postadres{
 	bottom: 470px;
 	position: relative;
 	left: 500px;
+	color: white;
 }
 
 #bezoekadrestekst{
 	position: relative;
 	bottom: 400px;
 	left: 100px;
+	color: white;
 }
 
 #postadrestekst{
 	position: relative;
 	bottom: 470px;
 	left: 500px;
+	color: white;
 }
 
 #postdiv{
 	position: relative;
 	right: 40px;
+}
+
+#proeflescadeau_img{
+	width: 100%;
+	height: 300px;
+}
+
+#proeflestekst{
+	left: 310px;
+	position: relative;
+	color: turquoise;
+}
+
+#inputsProefles{
+	position: relative;
+	left: 385px;
+}
+
+#inputsProefles input{
+	width: 400px;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	color: black;
+	font-weight: bold;
+}
+
+#knopProefles{
+	border-radius: 12px;
+	background-color: turquoise;
+	color: black;
+	font-weight: bold;
+	position: relative;
+	border: 8px turquoise;
+	left: 380px;
+	width: 400px;
+	height: 62px;
+}
+
+#vinkje{
+	width: 30%;
+	height: 300px;
+	position: relative;
+}
+
+#vinkje2{
+	width: 30%;
+	height: 300px;
+	position: relative;
+	left: 500px;
+}
+
+#vinkje3{
+	width: 30%;
+	height: 300px;
+	position: relative;
+	right: 350px;
+}
+
+#v1{
+	font-size: 20px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	font-weight: bold;
+	color: green;
 }
