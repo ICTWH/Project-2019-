@@ -10,7 +10,6 @@ body{
 	overflow-x: hidden; 
 	height: 0;
 	margin-bottom: 0;
-	
 
 	
 }
@@ -389,3 +388,31 @@ footer{
 	
 }
 
+#bezoekadres{
+	bottom: 400px;
+	position: relative;
+	left: 100px;
+}
+
+#postadres{
+	bottom: 470px;
+	position: relative;
+	left: 500px;
+}
+
+#bezoekadrestekst{
+	position: relative;
+	bottom: 400px;
+	left: 100px;
+}
+
+#postadrestekst{
+	position: relative;
+	bottom: 470px;
+	left: 500px;
+}
+
+#postdiv{
+	position: relative;
+	right: 40px;
+}
