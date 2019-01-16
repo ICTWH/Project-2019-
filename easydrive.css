@@ -306,7 +306,7 @@ footer{
 }
 
 #email_icon{
-	width: 4%;
+	width: 3%;
 	left: 300px;
 	bottom: 80px;
 	position: relative;
@@ -321,26 +321,28 @@ footer{
 #telefoondiv{
 	left: 80px;
 	position: relative;
+	top: 7px;
 }
 
 #emaildiv{
 	left: 160px;
 	position: relative;
+	top: 15px;
 }
 
 #socialTekst{
 	position: relative;
 	bottom: 282px;
-	left: 900px;
+	left: 870px;
 }
 
 #socialmedia{
 	position: relative;
-	bottom: 335px;
-	left: 960px;
+	bottom: 350px;
+	left: 970px;
 }
 
-#s1{
+#s1 li{
 	list-style: none;
 	margin: 10px 30px;
 	display: inline-block;
@@ -351,3 +353,39 @@ footer{
 	border-radius: 50%;
 	transition: .5s;
 }
+
+#s2 li{
+	list-style: none;
+	margin: 10px 30px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	transition: .5s;
+}
+
+#s1, #s2{
+	transform: translate(-53%, -50%);
+}
+
+#s1{
+	top: 100px;
+	position: relative;
+	left: 500px;
+}
+
+#s2{
+	top: 90px;
+	position: relative;
+	left: 540px;
+}
+
+#socialmedia li:hover {
+	color: #292929;
+	border: 1px solid #292929;
+	transition: -5s;
+	
+}
+
