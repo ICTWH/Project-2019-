@@ -9,6 +9,7 @@ body{
 	padding: 0;
 	overflow-x: hidden; 
 	height: 0;
+	
 
 }
 
@@ -51,6 +52,7 @@ a {
 	color: white;
 	font-weight: bold;
 	font-size: 30px;
+	text-shadow: 1px 3px darkgreen;
 
 }
 
@@ -61,6 +63,7 @@ a {
 	color: white;
 	font-weight: bold;
 	font-size: 30px;
+	text-shadow: 1px 3px red;
 }
 
 #tekstHome3{
@@ -70,6 +73,7 @@ a {
 	color: white;
 	font-weight: bold;
 	font-size: 30px;
+	text-shadow: 1px 3px darkgreen;
 
 
 }
@@ -111,12 +115,14 @@ a {
 	left: 110px;
 	position: relative;
 	color: gold;
+	
 }
 
 #r2{
 	right: 105px;
 	position: relative;
 	color: gold;
+	
 }
 
 #a1{
@@ -145,12 +151,14 @@ a {
  	left: 70px;
 	position: relative;
 	color: gold;
+	
  }
 
  #r4{
  	right: 190px;
 	position: relative;
 	color: gold;
+	
  }
 
  #a3{
@@ -458,6 +466,17 @@ footer{
 	left: 380px;
 	width: 400px;
 	height: 62px;
+	box-shadow: 1px 10px lightblue;
+}
+
+#knopProefles:hover{
+	background-color: #3e8e41;
+}
+
+#knopProefles:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #555;
+  transform: translateY(4px);
 }
 
 #vinkje{
@@ -488,3 +507,337 @@ footer{
 	font-weight: bold;
 	color: green;
 }
+
+#contact_foto{
+	width: 100%;
+	height: 400px;
+}
+
+#a100{
+	color: white;
+	position: relative;
+	bottom: 300px;
+	left: 400px;
+}
+
+#a101{
+	color: white;
+	position: relative;
+	bottom: 270px;
+	left: 250px;
+}
+
+#a102{
+	position: relative;
+	left: 50px;
+}
+
+#a103{
+	position: relative;
+	font-family: cursive;
+	left: 50px;
+}
+
+#contacti1{
+	position: relative;
+	left: 50px;
+	width: 540px;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	color: black;
+	font-weight: bold;
+}
+
+#contacti2{
+	position: relative;
+	left: 50px;
+	width: 540px;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	color: black;
+	font-weight: bold;
+
+
+}
+
+#contacti3{
+	position: relative;
+	left: 50px;
+	width: 540px;
+	padding: 30px 25px;
+	margin: 8px 0px;
+	color: black;
+	font-weight: bold;
+}
+
+#contactknop{
+	background-color: dodgerblue;
+	border: dodgerblue;
+	width: 200px;
+	height: 40px;
+	position: relative;
+	left: 50px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Alfa Slab One';
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+#telnummer{
+	position: relative;
+	bottom: 390px;
+	left: 800px;
+	font-size: 20px;
+	font-weight: bold;
+	color: dodgerblue;
+}
+
+#t100{
+	position: relative;
+	bottom: 390px;
+	left: 870px;
+	font-size: 17px;
+}
+
+#emailinfo{
+	position: relative;
+	bottom: 300px;
+	left: 840px;
+
+
+}
+
+#emailcontact{
+	position: relative;
+	bottom: 50px;
+	font-size: 17px;
+	left: 20px;
+	font-weight: bold;
+	color: dodgerblue;
+}
+
+
+#t101{
+	position: relative;
+	bottom: 50px;
+	font-size: 17px;
+	right: 40px;
+
+}
+
+#adrescontact{
+	font-size: 17px;
+	font-weight: bold;
+	right: 40px;
+	position: relative;
+	color: dodgerblue;
+}
+
+#containercontact{
+	position: relative;
+	bottom: 60px;
+}
+
+#maintenance1{
+	position: relative;
+	left: 150px;
+}
+
+#maintenance2{
+	position: relative;
+	left: 500px;
+}
+
+
+#highway_img{
+	width: 100%;
+	height: 400px;
+}
+
+#rijlesh1{
+	text-align: center;
+	color: dodgerblue;
+}
+
+#rijlesh2{
+	text-align: center;
+	
+}
+
+#wrappakket1{
+		background-image: linear-gradient(#cd7f32 , brown );
+		max-width: 29%;
+		height: 600px;
+		box-shadow: 1px 10px #cd7f32 ;
+		border-radius: 50px;
+		position: relative;
+		left: 20px;
+}
+
+#wrappakket2{
+		background-image: linear-gradient(silver, grey);
+		max-width: 29%;
+		height: 600px;
+		box-shadow: 1px 10px lightgrey;
+		border-radius: 50px;
+		position: relative;
+		left: 20px;
+}
+
+#wrappakket3{
+		background-image: linear-gradient(gold, yellow);
+		max-width: 29%;
+		height: 600px;
+		box-shadow: 1px 10px gold;
+		border-radius: 50px;
+		position: relative;
+		right: 12px;
+
+}
+
+#containerrijles{
+		display: flex;
+		position: relative;
+		justify-content: space-between;
+	}
+
+#fotopakket{
+		position: relative;
+		left: 55px;
+	}
+
+#pakket{
+		text-align: center;
+	}
+
+#prijs{
+	border: 1px solid black;
+	background-color: black;
+	width: 110px;
+	height: 28px;
+	position: relative;
+	display: flex;
+	left: 250px;
+	font-size: 20px;
+	color: green;
+	font-weight: bold;
+	}
+
+#motorrijlestekst{
+	text-align: center;
+}
+
+#containermotorrijles{
+	display: flex;
+	justify-content: space-between;
+}
+
+#wrappakketmotor1{
+		background-image: linear-gradient(#cd7f32 , brown );
+		max-width: 29%;
+		height: 600px;
+		box-shadow: 1px 10px #cd7f32 ;
+		border-radius: 50px;
+		position: relative;
+		left: 20px;
+}
+
+#wrappakketmotor2{
+		background-image: linear-gradient(silver, grey);
+		max-width: 29%;
+		height: 600px;
+		box-shadow: 1px 10px lightgrey;
+		border-radius: 50px;
+		position: relative;
+		left: 20px;
+}
+
+#wrappakketmotor3{
+	background-image: linear-gradient(gold, yellow);
+		max-width: 29%;
+		height: 600px;
+		box-shadow: 1px 10px gold;
+		border-radius: 50px;
+		position: relative;
+		right: 12px;
+
+}
+
+#scooterrijlestekst{
+	text-align: center;
+}
+
+#containerscooterrijles{
+	display: flex;
+	justify-content: space-between;
+}
+
+#wrappakketscooter1{
+	background-image: linear-gradient(#cd7f32 , brown );
+		max-width: 29%;
+		height: 600px;
+		box-shadow: 1px 10px #cd7f32 ;
+		border-radius: 50px;
+		position: relative;
+		left: 20px;
+}
+
+#wrappakketscooter2{
+	background-image: linear-gradient(silver, grey);
+		max-width: 29%;
+		height: 600px;
+		box-shadow: 1px 10px lightgrey;
+		border-radius: 50px;
+		position: relative;
+		left: 20px;
+}
+
+#wrappakketscooter3{
+	background-image: linear-gradient(gold, yellow);
+		max-width: 29%;
+		height: 600px;
+		box-shadow: 1px 10px gold;
+		border-radius: 50px;
+		position: relative;
+		right: 12px;
+}
+
+.uitleg{
+	position: relative;
+	left: 8px;
+}
+
+
+#overons_img{
+	width: 100%;
+	height: 400px;
+}
+
+#overonst1{
+	text-align: center;
+}
+
+#overonstekst{
+	max-width: 450px;
+	text-align: center;
+	position: relative;
+	left: 400px;
+}
+
+#geschiedenisfoto{
+	width: 100%;
+	height: 400px;
+}
+
+#onsgeschiedenis{
+	text-align: center;
+}
+
+#onsgeschiedenistekst{
+	max-width: 450px;
+	text-align: center;
+	position: relative;
+	left: 400px;
+}
+
